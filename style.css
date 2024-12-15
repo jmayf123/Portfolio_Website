@@ -116,14 +116,28 @@ a:hover{
     max-height: 300px;
 }
 
-hamburger_icon.open span:first-child{
+.hamburger_icon.open span:first-child{
     transform: rotate(45deg) translate(10px, 5px);
 }
 
-hamburger_icon.open span:nth-child(2){
+.hamburger_icon.open span:nth-child(2){
     opacity: 0;
 }
 
-hamburger_icon.open span:first-child{
-    transform: rotate(45deg) translate(10px, 5px);
+.hamburger_icon.open span:last-child{
+    transform: rotate(-45deg) translate(10px, -5px);
 }
+
+.hamburger_icon span.first-child{
+    transform: none;
+}
+
+.hamburger_icon span.first-child{
+    opacity: 1;
+}
+
+.hamburger_icon span.first-child{
+    transform: none; 
+}
+
+/* SECTIONS */
