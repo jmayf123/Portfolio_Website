@@ -149,7 +149,7 @@ section{
     min-height: fit-content;
 }
 
-.section-container{
+.section_container{
     display: flex;
 }
 
@@ -161,7 +161,7 @@ section{
     height: 80vh;
 }
 
-.section__pic-container{
+.section__pic_container{
     display: flex;
     height: 250px;
     width: 250px;
@@ -174,10 +174,10 @@ section{
 }
 
 .section__text p{
-    font-weight: 600;
+    font-weight: 200;
 }
 
-.section__tex__p1{
+.section__text__p1{
     text-align: center;
 }
 
@@ -247,3 +247,4 @@ section{
     border: rgb(255, 255, 255) 0.1rem solid;
 }
 
+/* ABOUT ME */
